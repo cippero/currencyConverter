@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currency Converter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://data.fixer.io/api/latest?access_key=ec8ebe2832af80184de7c59ef611cc18"></script>
+  </head>
+  <body>
+    <form name="currency converter">
+      $<input type="text" id="inputSum"></input>
+      <input type="button" value="EUR" id="eur"></input>
+      <input type="button" value="GBP" id="gbp"></input>
+      <input type="button" value="CNY" id="cny"></input>
+      <input type="button" value="JPY" id="jpy"></input>
+    </form>
+    <span id="output_amount"></span>
+    <span id="output_currency"></span>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
